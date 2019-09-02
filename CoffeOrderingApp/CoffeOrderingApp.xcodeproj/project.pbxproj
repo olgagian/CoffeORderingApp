@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B941C80231D525700CEF787 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B941C7F231D525700CEF787 /* CreateOrderResponse.swift */; };
+		0B941C82231D58D800CEF787 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B941C81231D58D800CEF787 /* AddCoffeeOrderViewModel.swift */; };
+		0B941C84231D5B7300CEF787 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B941C83231D5B7300CEF787 /* CoffeeViewModel.swift */; };
+		0B941C86231D6BBB00CEF787 /* AddCoffeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B941C85231D6BBB00CEF787 /* AddCoffeOrderView.swift */; };
 		0BACF794231950820083C608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACF793231950820083C608 /* AppDelegate.swift */; };
 		0BACF796231950820083C608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACF795231950820083C608 /* SceneDelegate.swift */; };
 		0BACF798231950820083C608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACF797231950820083C608 /* ContentView.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B941C7F231D525700CEF787 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		0B941C81231D58D800CEF787 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		0B941C83231D5B7300CEF787 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		0B941C85231D6BBB00CEF787 /* AddCoffeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeOrderView.swift; sourceTree = "<group>"; };
 		0BACF790231950820083C608 /* CoffeOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BACF793231950820083C608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BACF795231950820083C608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 			children = (
 				0BACF7A8231951520083C608 /* Coffee.swift */,
 				0BACF7AA231954AE0083C608 /* Order.swift */,
+				0B941C7F231D525700CEF787 /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				0BACF7B023195BED0083C608 /* OrderListViewModel.swift */,
+				0B941C81231D58D800CEF787 /* AddCoffeeOrderViewModel.swift */,
+				0B941C83231D5B7300CEF787 /* CoffeeViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -118,6 +129,7 @@
 			children = (
 				0BACF797231950820083C608 /* ContentView.swift */,
 				0BACF7B3231964E20083C608 /* OrderListView.swift */,
+				0B941C85231D6BBB00CEF787 /* AddCoffeOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,13 +206,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BACF794231950820083C608 /* AppDelegate.swift in Sources */,
+				0B941C86231D6BBB00CEF787 /* AddCoffeOrderView.swift in Sources */,
 				0BACF7B4231964E20083C608 /* OrderListView.swift in Sources */,
+				0B941C80231D525700CEF787 /* CreateOrderResponse.swift in Sources */,
 				0BACF796231950820083C608 /* SceneDelegate.swift in Sources */,
 				0BACF7AE231955900083C608 /* Webservice.swift in Sources */,
+				0B941C84231D5B7300CEF787 /* CoffeeViewModel.swift in Sources */,
 				0BACF7AB231954AE0083C608 /* Order.swift in Sources */,
 				0BACF7B123195BED0083C608 /* OrderListViewModel.swift in Sources */,
 				0BACF798231950820083C608 /* ContentView.swift in Sources */,
 				0BACF7A9231951520083C608 /* Coffee.swift in Sources */,
+				0B941C82231D58D800CEF787 /* AddCoffeeOrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
