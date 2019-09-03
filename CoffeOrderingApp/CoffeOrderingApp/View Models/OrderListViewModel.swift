@@ -42,6 +42,8 @@ class OrderViewModel{
         return self.order.size
     }
     var coffeName: String {
+    
+
         return self.order.coffeeName
     }
     var total:Double {
